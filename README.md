@@ -1,10 +1,3 @@
----
-title: Modded Minecraft 1.12.2 Early-Mid game tips and tricks
-layout: jekyll-theme-leap-day
-author: borg286
-source-id: 1jupWWml-2VdJ3il-NukDYhf7Xkz9srjVrByVDR9MYmo
-published: true
----
 Modded Minecraft 1.12.2 Early-Mid game 
 
 **_Feel free to add your own tips, or entire sections. Just type away._**
