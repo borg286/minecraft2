@@ -1,20 +1,11 @@
 <script src="assets/js/main.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="assets/js/jquery.tocible.min.js"></script>
-
-      <div class="ref">
-      <!-- 
-        This element will be the reference 
-        for the navigation list positioning, 
-        especially on RWD, so position well 
-        to your liking. 
-      -->
-      </div>
 <script>
   $('section').tocible({
     heading: 'h1', //[selector], the first level heading
     subheading: 'h2', //[selector], the second level heading
-    reference:'.ref', //[selector], reference element for horizontal positioning
+    reference:'.banner', //[selector], reference element for horizontal positioning
     title: '', //[selector or string], title of the menu
     hash: false, //[boolean], setting true will enable URL hashing on click
     offsetTop: 50, //[number], spacing/margin above the menu
