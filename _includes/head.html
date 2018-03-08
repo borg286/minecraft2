@@ -1,16 +1,12 @@
 <script src="assets/js/main.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="assets/js/jquery.tocible.min.js"></script>
-<script>
-  $('section').tocible({
+<script type="text/rocketscript">
+  $(document).ready(function(e) {
+  	$('section').tocible({ 
     heading: 'h1', //[selector], the first level heading
     subheading: 'h2', //[selector], the second level heading
-    reference:'.banner', //[selector], reference element for horizontal positioning
-    title: '', //[selector or string], title of the menu
-    hash: false, //[boolean], setting true will enable URL hashing on click
-    offsetTop: 50, //[number], spacing/margin above the menu
-    speed: 800, //[number or string ('slow' & 'fast')], duration of the animation when jumping to the clicked content
-    collapsible: true //[boolean], enabling true will auto collapse sub level heading not being scrolled into
-    maxWidth: 150 //[number], set max-width of the navigation menu
-});
+    reference:'.ref', title:'Contents'});
+  });
 </script>
+
