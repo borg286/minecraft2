@@ -1,3 +1,10 @@
+---
+title: Modded Minecraft 1.12.2 Early-Mid game tips and tricks
+layout: jekyll-theme-leap-day
+author: borg286
+source-id: 1jupWWml-2VdJ3il-NukDYhf7Xkz9srjVrByVDR9MYmo
+published: true
+---
 Modded Minecraft 1.12.2 Early-Mid game 
 
 **_Feel free to add your own tips, or entire sections. Just type away._**
@@ -26,17 +33,17 @@ Historically, in modded Minecraft, installing mods used to be difficult and just
 
 ## Punching Trees
 
-Starting off you'll Punch trees and make vanilla tools like normal. Most modpacks add in lots of flora and tree types, which can clog up your inventory unless you’re focused. Here are some tips to help keep your inventory and goal focused.
+Starting off you'll punch trees and make vanilla tools like normal. Most modpacks add in lots of flora and tree types, which can clog up your inventory unless you’re focused. Here are some tips to help keep your inventory and goal focused.
 
-* Flower basket [Biomes O' Plenty]: Free up inventory from plantable things
+* Flower basket [Biomes O' Plenty]: Free up inventory from most plantable things
 
-* Stone AIOT[Actually Additions]: Stone pickaxe, Sword, Hoe, Shovel, Axe all in one
+* Stone AIOT[Actually Additions]: craft a Stone pickaxe, Sword, Hoe, Shovel, Axe and then craft them all together
 
 * Stone sickle[Extra Utilities 2]: Clear 5x5 of plants
 
 * Stone Hoe clears 3x3[Quark] and can till dirt which might spit out worms[Actually Additions] for hydrating/growing a farm
 
-* Crafting table on a stick[Actually Additions]: poor man's wireless crafting terminal
+* Crafting table on a stick[Actually Additions]: craft a sign and crafting table to make a poor man's wireless crafting terminal
 
 * What to hunt down:
 
@@ -46,15 +53,17 @@ Starting off you'll Punch trees and make vanilla tools like normal. Most modpack
 
         * Rivers are the best place to hunt these.
 
-    * Rubber wood[IndustrialCraft 2]: Just a couple blocks![image alt text]({{ site.url }}/public/BMbpD6rCZ1qoniF20u7H2A_img_0.png)
+    * Rubber wood[IndustrialCraft 2]: You only need a couple blocks
 
-    * String from flax[Actually Additions] ![image alt text]({{ site.url }}/public/BMbpD6rCZ1qoniF20u7H2A_img_1.png)
+    * String from flax[Actually Additions] found in forests
 
-    * Rice[Actually Additions]![image alt text]({{ site.url }}/public/BMbpD6rCZ1qoniF20u7H2A_img_2.png)
+    * Rice[Actually Additions] is found near rivers
 
     * Animal meat: Tinkers Construct lets you turn it into Leather; useful for backpacks.
 
-* Search high in mountains for Amaranth[Astral Sorcery](drops glowstone)![image alt text]({{ site.url }}/public/BMbpD6rCZ1qoniF20u7H2A_img_3.png)
+* Search high in mountains for Amaranth[Astral Sorcery](drops glowstone)
+
+![image alt text]({{ site.url }}/public/BMbpD6rCZ1qoniF20u7H2A_img_0.png)![image alt text]({{ site.url }}/public/BMbpD6rCZ1qoniF20u7H2A_img_1.png)![image alt text]({{ site.url }}/public/BMbpD6rCZ1qoniF20u7H2A_img_2.png)![image alt text]({{ site.url }}/public/BMbpD6rCZ1qoniF20u7H2A_img_3.png)
 
 ## Your first hovel
 
@@ -70,7 +79,7 @@ If you have [MineColonies] craft 5x boats -> Supply Boat (see image)
 
 ### 9x9
 
-Carve out a 9x9x6 tall room, with torches centered on each wall should be room enough to get you through to end game.
+Alternatively carve out a 9x9x6 tall room, with torches centered on each wall should be room enough to get you through to end game.
 
 Consider making a Mob Filter(player) to replace your front door.
 
@@ -86,9 +95,9 @@ Sleeping Mat[Cyclic]: Portable bed which can toggle if you reset your spawn poin
 
 [Journey Map] (That map in the upper right) lets you set waypoints that are visible from anywhere so you never get lost.
 
-1. Move to a point you want to remember
+1. Move to a place you want to remember
 
-2. Type 'j' to open the Journey Map UI. Click the diamond at the bottom. Click ‘New’ and give your current location a name and save it.
+2. Hit 'j' to open the Journey Map UI. Click the diamond at the bottom. Click ‘New’ and give your current location a name and save it.
 
 3. If cheats are enabled you can click 'teleport' on any waypoint
 
@@ -101,6 +110,8 @@ Teleport home[?]
 3. /Home set
 
 4. This will set your current position as home. Next time you run '/home' then you will be teleported back to that spot. Sometimes a half block lower, which is why you got higher when you set it.
+
+5. Re
 
 ### Early Automation
 
@@ -152,7 +163,7 @@ By now your meat should be all cooked. To get leather hang cooked meat on the ra
 
 ![image alt text]({{ site.url }}/public/BMbpD6rCZ1qoniF20u7H2A_img_9.png)
 
-## Increased inventory and flight
+## More inventory and flight
 
 ### Home Inventory
 
@@ -174,11 +185,11 @@ Crafting station[Tinker's Construct]: This has access to the inventory of an adj
 
 * For the advanced user you can use [regular expressions.](https://en.wikipedia.org/wiki/Regular_expression)
 
-* Hovering your mouse over an searched item and pressing 't' makes that item smoke in nearby chests. If it doesn’t check the controls for the right key binding.
+* Click anywhere to take focus off the search field, then Hover your mouse over a searched item and press 't'. This makes that item smoke in nearby chests. If it doesn’t check the controls for the right key binding.
 
 ![image alt text]({{ site.url }}/public/BMbpD6rCZ1qoniF20u7H2A_img_10.png)
 
-* Opening a vanilla chest you can search for items to highlight them [Quark]. Sadly other chests (crates,...) won't get this. See Poor man’s ME system below if you want to go this rout
+* Opening a vanilla chest you can search for items to highlight them [Quark]. Sadly other chests (crates,...) won't get this. See Poor man’s ME system below if you want to go this route
 
 ![image alt text]({{ site.url }}/public/BMbpD6rCZ1qoniF20u7H2A_img_11.png)
 
@@ -258,17 +269,17 @@ Open any of these and start with the Stencil Table to make patterns. Store those
 
 * Sharpening Kits are useful for restoring damage on the run. Whatever material you craft for your head, consider if you have enough for a kit, it costs 2 units of the base material. A cheaper alternative is to take a Tool Station with you in your backpack. This approach doesn't work well in the heat of battle.
 
-* Most modpacks have Tinkers Leveling, which adds modifiers the more you use your tool. Read up on "materials and you" for more info on these awesome slots.
+* Most modpacks have Tinkers Leveling, which adds modifier slots the more you use your tool. Read up on "materials and you" for more info on these awesome slots.
 
 ### Tool Forge
 
-4 iron blocks, sometimes it is any metal, just check JEI. If the latter the the mining dimension often has copper plastered on the surface.
+The Tool Forge opens advanced tools and requires 4 iron blocks, sometimes it is any metal; just check JEI.
 
 ### Slime Islands
 
 Slime Islands are high up in the air and come in 3 flavors: Green, Blue, and lastly Orange in the Nether.
 
-If you think you'll get into bows then be sure to take shears when you go up to take the leaves for fletchings. Fast leaf decay is going to be a bit annoying so you’ll need to be quick about getting the leaves. Take any saplings and some slimy dirt to plant it on. If playing on a server always replant for the next guy.
+If you think you'll get into bows then be sure to take shears when you go up to take the leaves for fletchings. Fast leaf decay is going to be a bit annoying so you’ll need to be quick about getting the leaves. Take any saplings and some slimy dirt to plant it on. If playing on a server always replant one for the next guy.
 
 Take some slime blocks as they are useful for tools, especially the blue slime.
 
@@ -276,7 +287,7 @@ The nice thing about slime is that you can make great parts from the slime cryst
 
 ### Knight Slime
 
-Once you have a smeltery and access to a purple slime island find the purple slime cubes and balls. Smelt with Iron and cobble. This material has very high durability and has the coveted Unnatural modifier. This modifier makes a higher than needed mining level contribute to a faster mining speed.
+Once you have a smeltery and access to a purple slime island find the purple slime cubes and balls. Smelt with Iron and cobble. This material has very high durability and has the coveted Unnatural modifier(see below).
 
 ### Great tools
 
@@ -600,7 +611,7 @@ Something something Thermal Dynamics
 
 Something something RFTools multiblock powercell
 
-## Black Quartz[Actually Additions]
+## Atomic Reconstructor
 
 WIP
 
@@ -732,7 +743,7 @@ There are 4 main ways that people handle their massive storage needs
 
     8. Cons: Meteors are still a pain to find and get into.
 
-### Storage Drawers
+## Storage Drawers
 
 Storage Drawers can hold 1-4 items with 32 stacks max per block. When chained to a Drawer Controller all of their inventories can be used, but sadly not by a Crafting Station. Native use cases are right clicking on the controller sucks items that are already in drawers out of your inventory. But with a crafting terminal and External Storage we get access to all the items. Expanding storage means building out the drawers, often covering up existing faces. We need to provide a trickle of power to an energy acceptor on the ME network. The drawer controller has a max radius of 16 blocks; but you'll hit rendering issues long before reading this limit. Covering up helps.
 
@@ -742,7 +753,7 @@ For storing massive quantities of items this solution can handle anything that c
 
 I think a wireless terminal would work, though I haven't tested it out yet.
 
-### Remote Storage
+## Remote Storage
 
 There are 3 main independent paths that Remote Storage works.
 
@@ -754,9 +765,9 @@ This should be your first thing to do with an emerald and Enderpearl.
 
 **Remote Storage Unit**
 
-### Refined Storage
+## Refined Storage
 
-### Applied Energistics
+## Applied Energistics
 
 # Mob grinding tips
 
