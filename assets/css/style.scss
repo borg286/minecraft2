@@ -4,4 +4,10 @@
 @import "{{ site.theme }}";
 nav {
     display: block;
+    text-align: left;
+    left: 0%;
+    margin-left: 0px;
+}
+menu, ol, ul {
+    padding: 0 0 0 10px;
 }
