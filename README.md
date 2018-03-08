@@ -1,6 +1,6 @@
 ---
 title: Modded Minecraft 1.12.2 Early-Mid game tips and tricks
-layout: post
+layout: jekyll-theme-leap-day
 author: borg286
 source-id: 1jupWWml-2VdJ3il-NukDYhf7Xkz9srjVrByVDR9MYmo
 published: true
