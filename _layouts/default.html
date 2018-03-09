@@ -21,18 +21,14 @@
 
   </head>
   <body>
-    <dif class="whole-page">
     <div class="wrapper">
-      <section>
-      <nav>
-        <ul></ul>
-      </nav>
       <div class="ref" style="float: right; width: 150px;height: 200px;"> </div>
       
-      <article class="bla">
+      <section>
+        <article>
         {{ content }}
-
-      </article>
+        </article>
+      </section>
       <footer>
         {% if site.github.is_project_page %}
           <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
@@ -51,7 +47,6 @@
           });
         });
        </script>
-      </section>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
 
@@ -65,6 +60,5 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
-      </div>
   </body>
 </html>
