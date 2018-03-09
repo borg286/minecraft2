@@ -6,7 +6,7 @@ function dynamicallyLoadCss(url) {
     document.head.appendChild(css); // Add it to the end of the head section of the page (could change 'head' to 'body' to add it to the end of the body section instead)
 }
 
-$.getScript( "/minecraft2/assets/js/jquery.tocible.min.js" )
+$.getScript( "/minecraft2/assets/js/jquery.tocible.js" )
   .done(function( script, textStatus ) {
     console.log( "Done loading" );
   })
