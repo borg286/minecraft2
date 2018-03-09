@@ -91,7 +91,6 @@
 					}		  
 					$('html, body').stop(true).animate({scrollTop:offset.top - 10}, opts.speed);
 				});
-				anchor.click();
 				
 			});
 			
@@ -155,5 +154,5 @@
 					
 		});				
   };
-	
+ $('.tocible li.tocible_subheading').hide();
 })(jQuery);
