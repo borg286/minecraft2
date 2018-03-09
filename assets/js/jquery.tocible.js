@@ -34,8 +34,7 @@
 			ref = wrapper.find(opts.reference);		
 			ref.css({'visibility':'hidden'});
 			
-			//left = ref.offset().left;
-			left = 50;
+			left = ref.offset().left;
 			
 			nav = $('<div/>', {'class':'tocible', html:'<ul/>'});	
 			nav.css({'max-width': opts.maxWidth})
