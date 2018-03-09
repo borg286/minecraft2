@@ -2,7 +2,7 @@ function dynamicallyLoadsMyStuff() {
     var css = document.createElement("link"); // Make a script DOM node
     css.rel = 'stylesheet';
     css.href = "/minecraft2/assets/css/jquery.tocible.css";
-    document.head.appendChild(css);
+    var s = document.getElementsByTagName('link')[0]; s.parentNode.insertBefore(css, s);
 
     var script = document.createElement("script");
     script.type = "javascript";
@@ -12,7 +12,7 @@ function dynamicallyLoadsMyStuff() {
 
     var script2 = document.createElement("script");
     script2.type = "text/rocketscript";
-    script3.async = true;
+    script2.async = true;
     script2.setAttribute("data-rocketsrc","minecraft2/assets/js/jquery.tocible.js")
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script2, s);
 
