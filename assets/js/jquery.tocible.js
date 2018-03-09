@@ -43,7 +43,7 @@
 			
 			if(opts.title){
 				var title = $(opts.title).length ? $(opts.title).text() : opts.title;
-				var head = $('<div/>', {'class':'tocible_header', html:title+'<span/>' });
+				var head = $('<div/>', {'class':'tocible_header', html:title+'<span id="collapse"/>' });
 				
 				head.prependTo(nav).click(function() {
 					$(this).siblings('ul').slideToggle({
