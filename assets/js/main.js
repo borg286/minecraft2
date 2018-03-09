@@ -7,17 +7,17 @@ function dynamicallyLoadsMyStuff() {
     var script = document.createElement("script");
     script.type = "javascript";
     script.src="https://ajax.cloudflare.com/cdn-cgi/scripts/935cb224/cloudflare-static/rocket.min.js"
-    document.head.appendChild(script);
+    document.footer.appendChild(script);
 
     var script2 = document.createElement("script");
     script2.type = "text/rocketscript";
     script2.setAttribute("data-rocketsrc","minecraft2/assets/js/jquery.tocible.js")
-    document.head.appendChild(script2);
+    document.footer.appendChild(script2);
 
     var script3 = document.createElement("script");
     script3.type = "text/rocketscript";
     script3.setAttribute("data-rocketsrc","minecraft2/assets/js/create.js")
-    document.head.appendChild(script3);
+    document.footer.appendChild(script3);
     
 }
 
