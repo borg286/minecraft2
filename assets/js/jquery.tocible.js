@@ -122,6 +122,7 @@
 					
 				}		
 			};
+			contain();
 			
 			onScroll = function(){
 				if(opts.collapsible){ $('.tocible li.tocible_subheading').hide(); }
@@ -148,11 +149,10 @@
 			};
 			
 			$(window).on('resize scroll',function(e) {
-        contain();
+				contain();
 				onScroll();
-      }).trigger('scroll');
-					
+			}).trigger('scroll');
 		});				
   };
- $('.tocible li.tocible_subheading').hide();
+	
 })(jQuery);
