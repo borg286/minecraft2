@@ -6,11 +6,11 @@ function dynamicallyLoadScript(url) {
     document.head.appendChild(script); // Add it to the end of the head section of the page (could change 'head' to 'body' to add it to the end of the body section instead)
 }
 function dynamicallyLoadCss(url) {
-    var script = document.createElement("link"); // Make a script DOM node
+    var css = document.createElement("link"); // Make a script DOM node
     css.rel = 'stylesheet';
-    script.href = url; // Set it's src to the provided URL
+    css.href = url; // Set it's src to the provided URL
 
-    document.head.appendChild(script); // Add it to the end of the head section of the page (could change 'head' to 'body' to add it to the end of the body section instead)
+    document.head.appendChild(css); // Add it to the end of the head section of the page (could change 'head' to 'body' to add it to the end of the body section instead)
 }
 function addScripts() {
   dynamicallyLoadScript("/minecraft2/assets/js/jquery.tocible.min.js");
