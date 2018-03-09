@@ -24,4 +24,7 @@ function dynamicallyLoadsMyStuff() {
     
 }
 
-dynamicallyLoadsMyStuff();
+$(document).ready(function(e) {
+  dynamicallyLoadsMyStuff();
+});
+
