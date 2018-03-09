@@ -13,6 +13,11 @@ function dynamicallyLoadsMyStuff() {
     script.type = "text/rocketscript";
     script.data-rocketsrc="minecraft2/assets/js/jquery.tocible.js"
     document.head.appendChild(script);
+
+    var script = document.createElement("script");
+    script.type = "text/rocketscript";
+    script.data-rocketsrc="minecraft2/assets/js/create.js"
+    document.head.appendChild(script);
     
 }
 
