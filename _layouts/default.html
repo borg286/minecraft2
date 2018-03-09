@@ -21,7 +21,7 @@
 
   </head>
   <body>
-
+    <dif class="whole-page">
       <header>
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
@@ -61,7 +61,7 @@
       <script type="text/rocketscript">
         $(document).ready(function(e) {
           //call tocible():
-          $('.bla').tocible({ reference:'.ref', title:'Contents'});
+          $('.whole-body').tocible({ reference:'.ref', title:'Contents'});
         });
        </script>
     </div>
@@ -77,5 +77,6 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
+      </div>
   </body>
 </html>
