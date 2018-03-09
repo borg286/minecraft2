@@ -122,7 +122,6 @@
 					
 				}		
 			};
-			contain();
 			
 			onScroll = function(){
 				if(opts.collapsible){ $('.tocible li.tocible_subheading').hide(); }
@@ -152,6 +151,7 @@
 				contain();
 				onScroll();
 			}).trigger('scroll');
+			contain();
 		});				
   };
 	
