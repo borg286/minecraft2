@@ -1,30 +1,20 @@
-function dynamicallyLoadCss(url) {
+function dynamicallyLoadsMyStuff() {
     var css = document.createElement("link"); // Make a script DOM node
     css.rel = 'stylesheet';
-    css.href = url; // Set it's src to the provided URL
+    css.href = "/minecraft2/assets/css/jquery.tocible.css";
+    document.head.appendChild(css);
 
-    document.head.appendChild(css); // Add it to the end of the head section of the page (could change 'head' to 'body' to add it to the end of the body section instead)
+    var script = document.createElement("script");
+    script.type = "javascript";
+    script.src="https://ajax.cloudflare.com/cdn-cgi/scripts/935cb224/cloudflare-static/rocket.min.js"
+    document.head.appendChild(script);
+
+    var script = document.createElement("script");
+    script.type = "text/rocketscript";
+    script.data-rocketsrc="minecraft2/assets/js/jquery.tocible.js"
+    document.head.appendChild(script);
+    
 }
 
-$.getScript( "/minecraft2/assets/js/jquery.tocible.js" )
-  .done(function( script, textStatus ) {
-    console.log( "Done loading" );
-  })
-  .fail(function( jqxhr, settings, exception ) {
-    console.log( "Failure" );
-});
+dynamicallyLoadsMyStuff();
 
-
-function addScripts() {
-  dynamicallyLoadCss("/minecraft2/assets/css/jquery.tocible.css");
-}
-addScripts();
-$(document).ready(function(e) {
-  var div = document.createElement("div");
-  div.setAttribute("id", "ref");
-  document.getElementsByTagName('body')[0].appendChild(div);
-  	$('section').tocible({ 
-    heading: 'h1', //[selector], the first level heading
-    subheading: 'h2', //[selector], the second level heading
-    reference:'.ref', title:'Contents'});
-});
