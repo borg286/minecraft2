@@ -6,6 +6,12 @@
  *
  */
 
+	
+  .ref {
+		float:right;	
+		width:150px;	
+		height:200px;				
+  }
 .tocible { 
 	background:#666;
 	color:#FFF;
