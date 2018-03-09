@@ -17,7 +17,8 @@ function addScripts() {
   document.body.appendChild(div);
   dynamicallyLoadScript("/minecraft2/assets/js/jquery.tocible.min.js");
   dynamicallyLoadCss("/minecraft2/assets/css/jquery.tocible.css");
-}()
+}
+addScripts();
   $(document).ready(function(e) {
   	$('section').tocible({ 
     heading: 'h1', //[selector], the first level heading
