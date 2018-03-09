@@ -61,7 +61,12 @@
       <script type="text/rocketscript">
         $(document).ready(function(e) {
           //call tocible():
-          $('.wrapper').tocible({ reference:'.ref', title:'Contents'});
+          $('.wrapper').tocible({
+            heading: 'h1',
+            subheading: 'h2', 
+            reference:'.ref', title:'Contents',
+            collapsible: true
+          });
         });
        </script>
     </div>
