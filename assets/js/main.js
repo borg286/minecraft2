@@ -14,7 +14,7 @@ function dynamicallyLoadCss(url) {
 function addScripts() {
   var div = document.createElement("div");
   div.setAttribute("id", "ref");
-  document.body.appendChild(div);
+  document.getElementsByTagName('body')[0].appendChild(div);
   dynamicallyLoadScript("/minecraft2/assets/js/jquery.tocible.min.js");
   dynamicallyLoadCss("/minecraft2/assets/css/jquery.tocible.css");
 }
