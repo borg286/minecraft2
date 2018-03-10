@@ -1,3 +1,11 @@
+---
+title: Modded Minecraft 1.12.2 Early-Mid game tips and tricks
+layout: jekyll-theme-leap-day
+author: borg286
+permalink: /modded-minecraft-1.12.2-early-mid-game-tips-and-tricks/
+source-id: 1jupWWml-2VdJ3il-NukDYhf7Xkz9srjVrByVDR9MYmo
+published: true
+---
 Modded Minecraft 1.12.2 Early-Mid game 
 
 **_Feel free to add your own tips, or entire sections. Just type away._**
@@ -60,6 +68,12 @@ Starting off you'll punch trees and make vanilla tools like normal. Most modpack
 
 ## Your first hovel
 
+### 9x9
+
+Alternatively carve out a 9x9x6 tall room, with torches centered on each wall should be room enough to get you through to end game.
+
+Consider making a Mob Filter(player) to replace your front door.
+
 ### [MineColonies] Supplyboat
 
 ### ![image alt text]({{ site.url }}/public/BMbpD6rCZ1qoniF20u7H2A_img_4.png)
@@ -69,12 +83,6 @@ If you have [MineColonies] craft 5x boats -> Supply Boat (see image)
 1. Apply to shore to get your first base
 
 2. Build a dock with steps for easy access
-
-### 9x9
-
-Alternatively carve out a 9x9x6 tall room, with torches centered on each wall should be room enough to get you through to end game.
-
-Consider making a Mob Filter(player) to replace your front door.
 
 ### Sleep
 
@@ -100,25 +108,27 @@ Teleport home[?]
 
 2. Open the console with /
 
-3. /Home set
+3. /sethome
 
 4. This will set your current position as home. Next time you run '/home' then you will be teleported back to that spot. Sometimes a half block lower, which is why you got higher when you set it.
 
-5. Re
-
 ### Early Automation
 
-Crafting Furnace[Terraqueous]
+CraftFurnace[Terraqueous]
 
 ![image alt text]({{ site.url }}/public/BMbpD6rCZ1qoniF20u7H2A_img_6.png)
 
 This furnace has 6 slots for each of its inputs and outputs and cooks 2 items at a time. It also has 3 slots for fuel. It also keeps its place when fuel or items runs out, so no wasted fuel nor ores that waste fuel that almost was enough.
 
-1. Craft all the Grout for a Tinker's Construct Smeltery later (doubles ore, makes alloys)
+1. Make a furnace as usual
 
-2. Cook all your meat, wood and sand. 
+2. Smelt 8 cobble into stone, and upgrade to the CraftFurnace
 
-3. Chunkloading
+3. Craft all the Grout(gravel, sand, clay) for a Tinker's Construct Smeltery later (doubles ore, makes alloys)
+
+4. Cook all your meat, wood and sand. 
+
+5. Chunkloading
 
     1. Open the inventory and click on the friends button in the upper left. Shift click, then shift right click on chunks you want to always be running instead of freezing in time when you go away. This keeps machines working, and entities from despawning. F3+g shows chunk boundaries.
 
@@ -127,6 +137,8 @@ This furnace has 6 slots for each of its inputs and outputs and cooks 2 items at
 1. Place your worms[Actually Additions] on flat ground. They till grass, water, and periodically bone meal a 3x3.
 
 2. Plant wheat for food
+
+3. Plant your Rice. Rice can be turned into rice seeds if you want to invest in the future rather than use the rice now. Note that some modpacks removed sugarcane-> paper recipe, with rice being the replacement.
 
 *Ability: Gaining fast travel and Removing falling damage*
 
@@ -146,7 +158,7 @@ See [optional Magical Crops quest](#heading=h.u6dar7pz86o1) if you're into farmi
 
 ### Leather and Food
 
-Drying rack[Tinker's Construct] are placed on walls and dry out meats.
+Drying rack[Tinker's Construct] is made from vanilla wood (acatia, oak, spruce…) are placed on walls for drying out meats.
 
 By now your meat should be all cooked. To get leather hang cooked meat on the rack and wait
 
@@ -200,7 +212,7 @@ Crafting station[Tinker's Construct]: This has access to the inventory of an adj
 
 ![image alt text]({{ site.url }}/public/BMbpD6rCZ1qoniF20u7H2A_img_14.png)
 
-* Empty sack of holding[Cyclic] can pick up chests and crates w/o weighing you down like dollies did
+* Empty sack of holding[Cyclic] can pick up chests and **crates** w/o weighing you down like dollies did. This makes mining trips super productive. No longer do you need to manage your personal inventory.
 
 * Leather Backpack[Iron Backpacks]: Seems like equipping the backpack is often disabled, but can be right clicked to give you 2 more rows of inventory slots. Iron, Gold, and Diamond progressively upgrades them.
 
@@ -370,41 +382,83 @@ Sacred(Bake rotten flesh+dirt+bonemeal): Nearly doubles damage vs. undead
 
 ## ![image alt text]({{ site.url }}/public/BMbpD6rCZ1qoniF20u7H2A_img_22.png)
 
-* Before heading out take 3+ stone drums[Extra Utilties 2] (for lava), 10+ wood (for torches), 4 String, 2 Wool (for a miner's backpack) 
+Before heading out take 
 
-* What ores should I focus on? What level should I mine?
+* 3+ stone drums[Extra Utilties 2] (for lava)
 
-    * Open Jei, Search for the ore, and open the World gen tab to see its spawn level.
+* 10+ wood (for torches)
 
-    * Quartz[Embers] > black quartz[Actually Additions] >Certus Quartz[Applied Energistics 2]
+* Food
 
-    * Iron > Tin > Lead > Aluminium > Copper
+* **Empty Sack of Holding[Cyclic] holding a Crate[Actually Additions] for having nigh infinite slots**
 
-    * Obviously grab all the Redstone, Gold, Diamonds, Emeralds you can find
+What ores should I focus on? What level should I mine?
 
-* Light: Tiny torches[Actually Additions] or stone sticks[Tinkers]
+* Open Jei, Search for the ore, and open the World gen tab to see its spawn level.
 
-    * If you have lots of wood, split your coal into 8 tiny coal and make tiny torches
+* Quartz[Embers] > black quartz[Actually Additions] >Certus Quartz[Applied Energistics 2]
 
-    * If you don't then turn cobble into cobble sticks-> stone torches
+* Iron > Tin > Lead > Aluminium > Copper > Osmium
 
-* Bucket
+* Obviously grab all the Redstone, Gold, Diamonds, Emeralds you can find
 
-    * Make slime sling with the Rice dough you brought.
+Light: Tiny torches[Actually Additions] or stone sticks[Tinkers]
 
-    * Fill up drums with lava
+* If you have lots of wood, split your coal into 8 tiny coal and make tiny torches
 
-* Mining Dimension[Aroma1997's Dimensional world] (1 iron + flint + Stone bricks)
+* If you don't then turn cobble into cobble sticks-> stone torches
 
-    * Head home and make portal to the Mining dimension. Be sure to be high enough else the portal opens underground. Continue your mining there
+Bucket
 
-* Miners backpack[Forestry] (2 iron + 4 string + 2 wool): Holds Apatite, Gold, Iron, Lead, Silver, Tin, Coal, Diamond, Emerald; Both ore and ingot form.
+* Make slime sling with the Rice dough you brought.
 
-* Chisel[Chisel]
+* Fill up drums with lava
 
-    * Mostly decorative now, with a few exceptions: Chiseled quartz is useful for Atomic Reconstructor
+Mining Dimension[Aroma1997's Dimensional world] 
 
-    * TODO: Find more mechanically useful trades.
+The Mining Dimension is accessed like the Nether, through a portal you create with the Mining Tool. This tool is usually one of the first things I create with my first Iron. 
+
+1. Head on the top of a hill otherwise the portal in the Mining Dimension will end up underground
+
+2. Cook some Cobble into 12 stone
+
+3. Craft the stone into Stone Bricks
+
+4. Craft a stone pickaxe (you can't use your dirty old used one), Flint and Steel, and 2 Stone Bricks to get the Mining Tool.
+
+5. Craft your remaining Stone bricks with the Tool to make Portal Frames
+
+6. Build a portal with the frames and use the Mining Tool on them as if it was flint and steel.
+
+7. Step into the portal **and Sneak**
+
+I often have my first base in this world. A word of wisdom if choosing this path. Place your bed in the overworld near the portal. Just like trying to sleep in the Nether results in an explosion, so does it here. You might want to light up around your bed for the few moments you come to sleep. Lighting up your main base in the Mining Dimension is also easier due to how flat it is. It also doesn't rain here.
+
+Finding Lava pools and cave entrances in the Mining Dimension are much easier. A big change seems to be that the Mining Dimension is topped with Grass rather than stone, and doesn't seem to spawn cows, only sheep. See Tinker’s Drying Racks to get leather from cooked Lamb.
+
+Miners backpack[Forestry]
+
+These backpacks are fairly cheap (2 iron + 4 string + 2 wool) and only need to be in your inventory to vacuum up drops.
+
+Holds both the ore and ingot form of items it holds
+
+* Apatite
+
+* Gold
+
+* Iron
+
+* Lead
+
+* Silver
+
+* Tin
+
+* Coal
+
+* Diamond
+
+* Emerald
 
 ## Must go deeper
 
@@ -420,7 +474,7 @@ Sharpening kit: An Obsidian sharpening kit upgrades the mining level of Tinkers 
 
 Aiot[Actually Additions] upgrade: An obsidian AIOT will serve long as your non-mining tool (Same damage as diamond sword)
 
-### Portal
+### Nether portal
 
 Use 10 obsidian above to make a portal. If you didn't make a smeltry but have lava then fall back to making a case
 
@@ -428,7 +482,7 @@ Use 10 obsidian above to make a portal. If you didn't make a smeltry but have la
 
 ### Armor Up: Chestplate
 
-The nether is more dangerous than you're used to. Gouls, blazes outside fortresses, highly explosive creepers. Prepare with some armor. Here are some good materials to use for a chestplate. Be sure to take your slime boots, slimesling and hang glider if you have one.
+The nether is more dangerous than you're used to. Ghouls, blazes outside fortresses, highly explosive creepers. Prepare with some armor. Here are some good materials to use for a chestplate. Be sure to take your slime boots, slimesling and hang glider if you have one.
 
 * Lapis Lazuli[MekanismTools](5)
 
@@ -446,7 +500,7 @@ The nether is more dangerous than you're used to. Gouls, blazes outside fortress
 
 Things to Collect
 
-Get 8 blaze rods, nether quartz, Cobalt![image alt text]({{ site.url }}/public/BMbpD6rCZ1qoniF20u7H2A_img_25.png), 5 ardite![image alt text]({{ site.url }}/public/BMbpD6rCZ1qoniF20u7H2A_img_26.png), and a handful of magma blocks
+Get nether quartz, Cobalt![image alt text]({{ site.url }}/public/BMbpD6rCZ1qoniF20u7H2A_img_25.png), 5 ardite![image alt text]({{ site.url }}/public/BMbpD6rCZ1qoniF20u7H2A_img_26.png), and a handful of magma blocks.
 
 ## My first Ender pearl
 
@@ -456,13 +510,49 @@ Lots of mods gate mid-tier machines on ender pearls. We'll be able to make spawn
 
 * Find either Plains or Desert during the night, look at an enderman to drag him to a relatively clear area, then drop down and duke it out.
 
-* TODO: see if spawner wand is cheap enough.
-
 # Machine tier
 
 *Note to veterans of Modded Minecraft from 1.7.10: most mods have been ported to 1.12, some key ones are still behind. Those will be listed below under a translation section*
 
+Start by building an Induction Smelter. It will double your ores, open up key alloys, has the most recipes for joining base materials together, and runs off of most power supplies.
+
+Next We'll want a way to run power cables around, which is best done with Basic Universal Cables. Creating and upgrading these cables requires a fair bit of the Mekanism mod. See Mekanism Setup below. Following this path you also get a good Pulverizer also.
+
 ## Tips on getting common components
+
+### Metal Alloys
+
+Not every machine that can mix metals has the recipes for all alloys, so you'll often find you need 2 or 3 to make mod-specific alloys you need. But we can order them as to which you’re likely to get first and second.
+
+* Smeltery[Tinker's Construct]
+
+    * Pros: Common to have one built as part of your first base. Can melt lots of ores in parallel.
+
+    * Cons: Doesn't get all alloys. Very easy to get unintended alloys when mixing molten metals. Pouring out metal into blocks is slow.
+
+* Metallurgic Infuser[Mekanism]
+
+    * Pros: Combined with a Enrichment Chamber you can make the Coal 8x as effective
+
+    * Cons: Only alloy this makes is Bronze and Steel. Iron needs 2 passes to make Steel blend, which further needs to be smelted in Smeltery.
+
+* Induction Smelter[Thermal Expansion]
+
+    * Pros: Has the Most recipes for combining things for alloying, making it more friendly for other builds. Doubles ores, and can even tripple them with certain catalysts (Nickel Ore + Cinnabar -> 3 Nickel+Platinum)
+
+    * Cons: Takes 2 invar ingots to create, nickel is a bit rare
+
+* Alloy Furnace[NuclearCraft 2]
+
+    * Pros: Makes all the important alloys you'd need
+
+    * Cons: Requires Graphite to make. Harder to bootstrap into.
+
+* Blast Furnace[IndustrialCraft2]
+
+    * Pros: Only takes Iron and Copper to create, can turn iron directly into steel
+
+    * Cons: Needs EU. Takes lots of iron to create. Only function is to make steel.
 
 ### Circuit chip, which is easiest
 
@@ -470,35 +560,169 @@ Most mod packs treat certain chips as equal. Which one to build comes down to pr
 
 #### Low entry, medium cost per chip
 
-Carpenter[?] block is built from x bronze and a little water and power to turn
+Carpenter[Forestry] block is built from x bronze and a little water and power to turn
 
-* 1 tin + 6 redstone -> Basic circuit board[?]
+* 1 tin + 6 redstone -> Basic circuit board[Forestry]
 
-* Craft that with 4 redstone + 2 glowstone + 2 lapis -> Advanced Circuit[?]
+* Basic Circuit Board + 4 redstone + 2 glowstone + 2 lapis -> Advanced Circuit[IndustrialCraft2]
 
 #### High Entry to get low cost per chip, Opens doors to fast automation
 
-Mekanism requires X and Y machines, but can turn
+Mekanism is the most efficient when it comes to creating chips and steel, but takes an Enrichment Chamber to get there. Ie. invest in grinding steel early on returns cheaper chips and steel.
 
-* 1 redstone + 8 iron -> 8 basic chips
+* redstone + Osmium -> basic control circuit
 
-* …
+    * With Enrichment Chamber: 1 redstone + 8 osmium -> 8 basic control circuit
+
+* 1 basic + 2 Enriched Alloy (1 iron+1 redstone) -> Advanced Control Circuit
 
 #### No machines and no power, high cost per chip
 
 IndustrialCraft2 only needs an ample supply of rubber
 
-* TODO: fill in with raw material requirements to make a basic and advanced chip
+* Tools Needed: Forge Hammer(5 iron), Cutter(5 iron)
 
-### Plastic
+* 2 redstone + Iron + 6 plastic + 3 copper->Electronic Circuit
 
-Quite a few mods are relying on plastic, which is a bit of a pain to get. Normally a Tree Extractor would eventually break the rubber block, but we can work around that by breaking and replacing it periodically.
+* Electronic Circuit + 4 redstone + 2 glowstone + 2 lapis -> Advanced Circuit[IndustrialCraft2]
+
+### Plastic [Industrial Foregoing]
+
+Quite a few mods are relying on plastic, which is a bit of a pain to get. Rubber trees have Latex liquid which must be extracted with a Tree Fluid Extractor. This Latex must be piped into a Latex Processing unit and joined with water to make Tiny Dry Rubber. 9 of those make Dry rubber which smelts into plastic. Normally a Tree Fluid Extractor would eventually break the rubber block, but we can work around that by breaking and replacing it periodically.
+
+1. Craft a Sink[Cooking For Blockheads] to make an infinite water supply
+
+2. Craft 64 Transfer Pipes[Extra Utilities 2] (they come in packs of 64)
+
+3. Craft 4 Transfer Nodes (Liquid)[Extra Utilities 2] (they come in packs of 4)
+
+4. Craft 4 Transfer Nodes (Items)
+
+5. Place the Latex Processing unit down
+
+6. 1 block away place the Tree Fluid Extractor
+
+7. Attach the Fluid Transfer Node on the Extractor, another one on the Sink
+
+8. Shift right click the Transfer Pipe to send their output liquid into the Latex Processing Unit
+
+9. Power the Processor and place your Rubber Wood to confirm latex and water are being piped to the Processor.
+
+10. Remove the Rubber wood before it breaks entirely (Normally takes like 5 minutes so no sweat).
+
+11. Place a dispenser such that it would place[Quark] the Rubber Wood down.
+
+    1. If you don't have Quark find an appropriate block placer machine.
+
+12. Place an Auto-Breaker[Actually Additions] on another side of the wood
+
+    2. Only needs redstone to break blocks, no RF power :)
+
+    3. Use a redstone torch to toggle it to break blocks on a low redstone signal
+
+13. Use an Transfer Node (Items) to pipe what it broke into the Dispenser
+
+14. Place a Redstone Clock[Cyclic] to emit a very long high redstone signal followed by a short 0 redstone signal
+
+    4. The high signal will cause the Dispenser to attempt placing the block.
+
+    5. The low signal triggers the Auto-Breaker.
+
+![image alt text]({{ site.url }}/public/BMbpD6rCZ1qoniF20u7H2A_img_27.png)![image alt text]({{ site.url }}/public/BMbpD6rCZ1qoniF20u7H2A_img_28.png)
 
 ### Metal plates
 
-The Forge Hammer can flatten a single metal ingot into its plate form. 
+The Forge Hammer[IndustrialCraft2] can flatten a single metal ingot into its plate form, all in the crafting grid.
 
 ### Pulverized ores
+
+Pulverizing ores often produces 2 dusts of that ore, each can make an ingot. Unlike the Smeltery, pulverizing keeps ores from inadvertently joining into alloys without explicitly combining them.
+
+Alloys that can be combined with crafting dust together:
+
+* 3 Copper dust + 1 Tin Dust -> Bronze Blend
+
+* Gold + Silver -> Electrum Blend
+
+* 2 Iron + Nickel -> Invar Blend
+
+#### Grindstone[Applied Energistics 2]
+
+This is an easy machine to make, requiring only certus quartz, 3 stone, and an aluminum gear. Normally you need to attach a Crank and wind it to grind ores and ingots into dust. 
+
+#### Enrichment Chamber[Mekanism]
+
+This machine needs 4 steel and 2 basic circuits and is the 2nd machine down the Mekanism tech tree. The upgrades for parallelism and speed are fairly cheap.
+
+#### Pulverizer[Thermal Expansion]
+
+The benefit with the Pulverizer is that it doesn't require any prerequisite machines. As a Thermal Expansion block it can pull and push its input and output items on any side
+
+#### Crusher[Actually Additions]
+
+Requires the Atomic Reconstructor, and thus power, to build.
+
+### Steel
+
+Getting steel is done in 2 parts. Getting either Smelting Steel dust via Mekanism (see Mekanism Setup below) or through Graphite/Coal Coke and then combining those in some alloying machine.
+
+#### Graphite
+
+Create a Manufactory (4 lead, 16 copper, 9 iron). This machine can turn Coal/Charcoal into Graphite Dust
+
+#### Coal Coke
+
+Coal Coke[Immersive Engineering] is the product of using Coal in a [Coke Oven](https://ftb.gamepedia.com/Coke_Oven_(Immersive_Engineering)). 
+
+ It must be arranged in a 3x3x3 solid cube to work. After it is arranged in that pattern, the player must right-click one of the center blocks with an [Engineer's Hammer](https://ftb.gamepedia.com/Engineer%27s_Hammer), then the multi-block is complete. Input the Coal and a very long time later you get Coal Coke.
+
+![image alt text]({{ site.url }}/public/BMbpD6rCZ1qoniF20u7H2A_img_29.png)
+
+#### Alloying machines
+
+While some alloys can be made in the Tinker's Smeltery, others require an alloying machine. Here is a list of those that can make steel.
+
+* Alloy Furnace[NuclearCraft]: Takes both Coal Coke or Graphite Dust 
+
+* Industrial Blast Furnace[Tech Reborn]: Does not take Coal Coke
+
+* Blast Furnace[Immersive Engineering]: Requires Blaze rods and Nether bricks to make this multiblock structure
+
+## Makanism Setup
+
+Makanism has Circuits, Ore doubling, Universal power cables, Parallel processing, and can do it all efficiently. You can also make cool upgrades like increased speed, reduced power consumption, 
+
+Osmium belongs to this mod, but only smelt as much as you immediately need. The ore is useful later on.
+
+1. Bootstrap some kind of power supply (see below)
+
+2. Make a Metalurgic Infuser (4 iron, 2 redstone, 1 osmium)
+
+3. Infuse 4 redstone + 4 osmium -> 2 Basic Control Circuit
+
+4. Upgrade Infuser by crafting it with Control Circuits + Iron + redstone -> Basic Infusing Factory(does 3 items)
+
+5. Make 2 more Basic Control Circuits
+
+6. Infuse Iron + 4 coal -> 4 Enriched Iron + 4 coal -> 4 Steel Blend
+
+7. Smelt Steel Blend in Smeltery -> 4 steel
+
+8. Steel + osmium + redstone + iron -> Enrichment Chamber + Circuits + redstone + iron -> Basic Enriching Factory (does 3 items)
+
+    1. This Enrichment Chamber acts like a pulverizer
+
+9. Enrich a handful of Coal, Redstone
+
+10. Now 1 coal enriched into Compressed Carbon can enrich 8 iron instead of 1. Same for Redstone.
+
+11. Create a handful of Enriched Alloy (enrich compressed redstone into iron)
+
+12. Enrich the Osmium Ore (not ingots which require a crusher) into osmium dust
+
+13. Combine the osmium dust, Enriched Alloys and glass into speed upgrades.
+
+    2. Replace the Osmium dust with gold dust for energy upgrades.
 
 ## Power
 
@@ -510,7 +734,9 @@ RFTools has a Network Monitor that has a checkbox to see RF/t going in/out of th
 
 #### Converting EU to RF
 
-Does anyone have any good advice here?
+IndustrialCraft2 still runs off of EU, a legacy power system requiring special power cables to convert from RF.
+
+Mekanism has Basic Universal Cable which can convert, but requires steel. See above for your prefered path to getting steel.
 
 #### Bootstrapping generator
 
@@ -606,45 +832,7 @@ Something something RFTools multiblock powercell
 
 ## Atomic Reconstructor
 
-WIP
-
-* Lever
-
-* Atomic reconstructor
-
-* Generator
-
-* ?
-
-Osmium[Mekanism]
-
-* Metalurgic Infuser
-
-Nether
-
-Tin
-
-* Grind copper + tin -> Bronze
-
-* Carpenter
-
-Redstone
-
-* Automating the smeltery
-
-    * Transfer pipe[Extra Utilities 2] ores into smeltery
-
-    * Redstone clock[Cyclic/Extra Utilities 2] to pour out ingots
-
-    * Have your ores first in line, followed by cobble
-
-    * Getting multiple drains working right is tricky
-
-    * Consider neighboring dedicated smelteries so each can pour into basin.
-
-Diamond
-
-Emerald
+Black quartz: Villages and Grindstone
 
 # Quarry time
 
@@ -662,21 +850,19 @@ See [Black Quartz](#heading=h.v5c222qmu2zd) for a walkthrough on obtaining a Ver
 
 ### Using the Quarry card
 
-**Manual Option**: With the Quarry card in hand shift right clicking on the builder, then walk to an aread you want quarried. Right click one corner, then walk to the other corner you want quarried and right click on that block.
+Option 1: Right click the Quarry Card and match the numbers below. You'll have to change middle offset (y axis) to instruct the builder to quarry a number of blocks below it. If you’re in the mining dimension you’re feet will be at y=100. Thus if you want to access y=10 you’ll want to set the offset to -90. If your builder is higher up then you’ll be 1 off.
 
-**Text Entry Option**: Right clicking the Quarry card in the air lets you input the dimensions given in X Y Z order. If mining in the Mining dimension then the following coordinates results in a large flat cut at y=4.
+![image alt text]({{ site.url }}/public/BMbpD6rCZ1qoniF20u7H2A_img_30.png)
 
-TODO: Insert image here.
-
-**Hybrid method**: Use the Manual option above, then open the card and tune the dimensions to your liking. Insert it back into the Builder and toggle the preview button. See below for the blue clouds as an example. When you're happy with the horizontal position, then set the Y offset down to mine at the level you want.
+Option 2: Shift right click the card on the Builder to establish the origin. Right click on opposite ends of a cube. Then insert the card into the Builder. This method is useful for becoming familiar with the Dimensions and offsets above.
 
 ### Filtering
 
-Storage Filter Module[RFTools] allows you to filter for just the stuff you want, or filter out items that the Quarry card doesn't have built in. Use the module and apply the block(s) you want to search for, then check the whitelist button. 
+Filter Module[RFTools] allows you to filter for just the stuff you want, or filter out items that the Quarry card doesn't have built in. Use the module and apply the block(s) you want to search for, then toggle the whitelist/blacklist button.
 
-TODO: See if whitelisting diamonds gets you diamond ore blocks.
+Note: To get Diamonds you sneak right click with the filter on a diamond ore block in the world to add it to the filter.  Either that or make a Combiner[Mekanism] to combine diamond dust and Cobble into the ore, then use that in the filter.
 
-![image alt text]({{ site.url }}/public/BMbpD6rCZ1qoniF20u7H2A_img_27.png)
+![image alt text]({{ site.url }}/public/BMbpD6rCZ1qoniF20u7H2A_img_31.png)
 
 ## Digital Miner
 
@@ -686,9 +872,25 @@ The Digital Miner lets you create filters for ores, and pay for mining just thos
 
 See [Black Quartz](#heading=h.v5c222qmu2zd) for a walkthrough on obtaining a Vertical Digger
 
-### Using the Digital Miner
+See [Mekanism](#heading=h.edro78d0i5ia) to get required machines.
 
-### Filtering
+1. Infuse Diamond dust onto Enriched Alloy
+
+2. Make an Osmium Compressor and a handful of Refined Obsidian Ingot
+
+    1. Go ahead and make a Obsidian Chestplate (Armor 12 vs Diamond's 8)
+
+3. Craft a Robbit and 2 Logistical Sorters
+
+4. Lastly 4 atomic Alloys + 2 diamonds -> Teleportation Cores
+
+5. Make your Digital Miner
+
+6. It requires too much power initially so you'll want to put in 5-6 energy upgrades.
+
+    2. These energy upgrades are multiplicative so the latter ones will have the greatest impact.
+
+### Using the Digital Miner
 
 [Watch this tutorial](https://www.youtube.com/watch?v=jWJNhrV4c8k)
 
@@ -702,11 +904,25 @@ Filtering for Iron, Quartz, and
 
 Certain ores are only available with through physical mining or with the Void Miner. Many mods set up their gateways on these items forcing you to have teched up to a sufficiently high power level, and void miner level. 
 
-### Items uniquely available to void mining
+### Items uniquely available to void and physical mining
+
+All Tiers: Prosperity and Inferium ore
+
+Tier 1: Litherite
+
+Tier 2: Erodium
+
+Tier 3: Kyronite
+
+Tier 4: Pladium
+
+Tier 5: Ionite
+
+Tier 6: Aethium
 
 ### Teching to a Void Miner
 
-### Power requirements for the tiers
+See this [thread](https://forum.feed-the-beast.com/threads/environmental-tech-blocks-required-list.263949/) for resource requirements.
 
 # ME System
 
@@ -718,7 +934,7 @@ There are 4 main ways that people handle their massive storage needs
 
     2. Cons: Visual glitches when you get really big, No automation from true ME system
 
-2. Remote Storage[RFTools]
+2. [RFTools] storage
 
     3. Pros: Can be attached to existing chest layout, Cheap but finite wireless storage
 
@@ -732,9 +948,9 @@ There are 4 main ways that people handle their massive storage needs
 
 4. [Applied Energistics]
 
-    7. Pros: Tried and trusted
+    7. Pros: Tried and trusted. You only need Skystone to craft all your presses.
 
-    8. Cons: Meteors are still a pain to find and get into.
+    8. Cons: Meteors are still a pain to find and mine.
 
 ## Storage Drawers
 
@@ -746,21 +962,35 @@ For storing massive quantities of items this solution can handle anything that c
 
 I think a wireless terminal would work, though I haven't tested it out yet.
 
-## Remote Storage
+## RFTools storage
 
-There are 3 main independent paths that Remote Storage works.
+There are 2 main independent paths that Remote Module storage works.
 
 **Wireless Crafting Tablet**
 
-This should be your first thing to do with an emerald and Enderpearl. 
+RFTools uses tiered Storage Modules to store items, Tier 1 holds up to 100 stacks of items, Tier 2 holds 200, Tier 3 holds 300. The Storage modules don't cost much, nor to upgrade (Tier 3 takes 2 blocks of gold). The real cost is the Emerald needed to make the Storage Tablet. This tablet gives you access to the Storage Modules on the go, only needing to be recharged based on how much it is used. Without this portable tablet the modules must be installed in a Remote/Storage Module which ties you down. If you do go this route and are unhappy with the UI, you can place a Crafting Station next to it to get a simpler UI.  Sadly you’ll have to get used to this UI when using the tablet.
+
+See the Power section for charging the tablet up.
 
 **Storage Scanner**
 
-**Remote Storage Unit**
+The storage scanner indexes anything nearby that has an inventory. You can configure the radius. 
+
+Watch [this video](https://www.youtube.com/watch?v=TVgbo1-gCEg) on a tutorial on how to use it.
+
+The primary benefit here is that you can leave your organized chests in place, configure priorities and routes, and expand it with more chests.
 
 ## Refined Storage
 
+Does anyone want to fill in this section for recommended ways of bootstrapping an ME system?
+
 ## Applied Energistics
+
+The progression and ability is the same as in Refined Storage only you use AE specific items and presses for base items.
+
+Unlike in 1.7.10 you can create presses by using a Metallurgic Infuser [Mekanism] to infuse redstone into Skystone Dust. From there you can craft the rest with more dust.
+
+![image alt text]({{ site.url }}/public/BMbpD6rCZ1qoniF20u7H2A_img_32.png)
 
 # Mob grinding tips
 
@@ -769,6 +999,26 @@ This should be your first thing to do with an emerald and Enderpearl.
 The Fan[?] is an easy way to push mobs down a long drop. They only require a lever to power. Hoppers collect drops just as well as they did before. Filtering is much easier than vanilla. Creating a large platform is easy with Builder Wands.
 
 ### Mid-game mob grinder
+
+While spelunking you'll encounter spawners. Placing a torch on top will prevent it from working. You can take the spawner with a cardboard box[Mekanism]. To make one you’ll need one of the following based on the tech you’ve built up
+
+* Carpenter[Forestry]
+
+* Precision Sawmill[Mekanism]
+
+* Sawmill[Tech Reborn]
+
+* Sawmill[Thermal Expansion]
+
+A mob grinding room should be X by Y big so that spawns don't appear outside the room.
+
+Get a Mob Crusher[Industrial Foregoing] as it is the cheapest of all the grinder options.
+
+If you want more safety keeping up your grinder you can upgrade the spawners to Resturbed[Extra Utilities 2], which disable them with a redstone signal.
+
+Often mobs will drop damaged weapons and odd items. The Reinforced Servo[Thermal Dynamics] allows easy whitelisting items and ignoring the damage data. Pipe these crappy items into a trash can, leaving the rest for you to reap later.
+
+If you want to see into your grinder get Dark Glass[Extra Utilities 2] to let you see through, but not letting light in.
 
 ### Wither grinder
 
