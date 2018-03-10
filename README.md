@@ -1,5 +1,5 @@
 
-#Modded Minecraft 1.12.2 Early-Mid game 
+# Modded Minecraft 1.12.2 Early-Mid game 
 
 **_Feel free to add your own tips, or entire sections. Just type away._**
 
