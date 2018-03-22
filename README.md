@@ -1,12 +1,5 @@
----
-title: Modded Minecraft 1.12.2 Early-Mid game tips and tricks
-layout: jekyll-theme-leap-day
-author: borg286
-permalink: /modded-minecraft-1.12.2-early-mid-game-tips-and-tricks/
-source-id: 1jupWWml-2VdJ3il-NukDYhf7Xkz9srjVrByVDR9MYmo
-published: true
----
-Modded Minecraft 1.12.2 Early-Mid game 
+
+*Modded Minecraft 1.12.2 Early-Mid game *
 
 **_Feel free to add your own tips, or entire sections. Just type away._**
 
@@ -44,7 +37,8 @@ TODO: insert image for tweaking ram
 
 #### MultiMC
 
--d64 -Xmx5G -XX:+DisableExplicitGC -XX:+UseConcMarkSweepGC -XX:MaxGCPauseMillis=50 -XX:+UseStringDeduplication -XX:+UseCompressedOops -XX:+UseCodeCacheFlushing -XX:ParallelGCThreads=12 -Dfml.ignoreInvalidMinecraftCertificates=true -Dfml.ignorePatchDiscrepancies=true
+
+-d64 -Xmx5G -XX:+DisableExplicitGC -XX:+UseConcMarkSweepGC -XX:MaxGCPauseMillis=50 -XX:+UseStringDeduplication -XX:+UseCompressedOops -XX:+UseCodeCacheFlushing -XX:ParallelGCThreads=12 -Dfml.ignoreInvalidMinecraftCertificates=true -Dfml.ignorePatchDiscrepancies=true
 
 # Early Game
 
