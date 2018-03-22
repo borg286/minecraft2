@@ -1,5 +1,12 @@
-
-*Modded Minecraft 1.12.2 Early-Mid game *
+---
+title: Modded Minecraft 1.12.2 Early-Mid game tips and tricks
+layout: jekyll-theme-leap-day
+author: borg286
+permalink: /modded-minecraft-1.12.2-early-mid-game-tips-and-tricks/
+source-id: 1jupWWml-2VdJ3il-NukDYhf7Xkz9srjVrByVDR9MYmo
+published: true
+---
+Modded Minecraft 1.12.2 Early-Mid game 
 
 **_Feel free to add your own tips, or entire sections. Just type away._**
 
@@ -37,8 +44,7 @@ TODO: insert image for tweaking ram
 
 #### MultiMC
 
-
--d64 -Xmx5G -XX:+DisableExplicitGC -XX:+UseConcMarkSweepGC -XX:MaxGCPauseMillis=50 -XX:+UseStringDeduplication -XX:+UseCompressedOops -XX:+UseCodeCacheFlushing -XX:ParallelGCThreads=12 -Dfml.ignoreInvalidMinecraftCertificates=true -Dfml.ignorePatchDiscrepancies=true
+-d64 -Xmx5G -XX:+DisableExplicitGC -XX:+UseConcMarkSweepGC -XX:MaxGCPauseMillis=50 -XX:+UseStringDeduplication -XX:+UseCompressedOops -XX:+UseCodeCacheFlushing -XX:ParallelGCThreads=12 -Dfml.ignoreInvalidMinecraftCertificates=true -Dfml.ignorePatchDiscrepancies=true
 
 # Early Game
 
@@ -1131,7 +1137,7 @@ I [extracted](https://docs.google.com/spreadsheets/d/1C64kWPZMNuodtchSfCWJTI8QfS
 
 ## Astral Sorcery
 
-<Some description>
+Some description
 
 The [Comforts] mod gives you a Hammock which lets you sleep through the day, so you can get back to moon light.
 
@@ -1421,9 +1427,9 @@ Unlike in 1.7.10 you can create presses by using a Metallurgic Infuser [Mekanism
 
 ## Autocrafting
 
-<Description>
+Description
 
-<Tips>
+Tips
 
 # Mob grinding tips
 
